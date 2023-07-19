@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    .verticle_divider::after {
+        content: '';
+        display: block;
+        background-color: #60a5fa;
+        transform: translateY(-50%);
+        width: 2px;
+        height: 4rem;
+        top: 50%;
+        right: -30px;
+        position: absolute;
+    }
+}
