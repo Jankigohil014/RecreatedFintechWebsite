@@ -1,0 +1,256 @@
+<ul className="space-y-2">
+    {/* Welcome List & SubList */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>Welcome</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]">
+                    Installation
+                </a>
+            </li>
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]">
+                    Quick start
+                </a>
+            </li>
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]">
+                    Folder content
+                </a>
+            </li>
+        </ul>
+    </li>
+    {/* Sendind Money */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>Sending Money</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className=" text-blue-500 font-[350]">
+                    How do I send money to a bank account or card?
+                </a>
+            </li>
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]">
+                    What recipient account details do I need?
+                </a>
+            </li>
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]">
+                    How do I send money to a bank account or card?
+                </a>
+            </li>
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]">
+                    How do I download my transfer confirmation?
+                </a>
+            </li>
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]">
+                    How to send money to a specific currency
+                </a>
+            </li>
+        </ul>
+    </li>
+    {/* Account Management List & SubList */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>Account Management</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]"> Link </a>
+            </li>
+        </ul>
+    </li>
+    {/* Card List & SubList */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>Card</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]"> Link </a>
+            </li>
+        </ul>
+    </li>
+
+    {/* Credit Products List & SubList */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>Credit Products</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]"> Link </a>
+            </li>
+        </ul>
+    </li>
+
+    {/* App Features List & SubList */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>App Features</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]"> Link </a>
+            </li>
+        </ul>
+    </li>
+
+    {/* Insurance List & SubList */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>Insurance</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]"> Link </a>
+            </li>
+        </ul>
+    </li>
+
+    {/* Wealth and Trading List & SubList */} {/* 1st Level List */}
+    <li>
+        <a
+            href="#0"
+            className="flex items-center text-slate-800 text-sm font-bold"
+            aria-haspopup="true"
+            aria-expanded="true"
+        >
+            <svg
+                className="rotate-90 mr-2 fill-slate-400"
+                width="8"
+                height="8"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M2.854.647A.5.5 0 0 0 2 1v6a.5.5 0 0 0 .854.354l3-3a.5.5 0 0 0 .058-.638l-.058-.07-3-3Z"
+                ></path>
+            </svg>
+            <span>Wealth and Trading</span>
+        </a>
+        {/* 2nd Level List */}
+        <ul className="mt-2 pl-6 text-sm/6 space-y-2">
+            <li>
+                <a href="#0" className="text-slate-600 font-[350]"> Link </a>
+            </li>
+        </ul>
+    </li>
+</ul>

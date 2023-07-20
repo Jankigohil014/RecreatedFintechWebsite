@@ -1,0 +1,19 @@
+.backgroundEffect {
+    background: rgb(59, 105, 241);
+    background: linear-gradient(
+        132deg,
+        rgba(59, 105, 241, 1) 35%,
+        rgba(81, 188, 230, 1) 73%
+    );
+}
+
+.content {
+    font-family: 'Aspekta', sans-serif;
+    letter-spacing: -0.01em;
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 600px;
+    }
+}

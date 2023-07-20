@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    .verticalDivider::after {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 4rem;
+        background-color: #e2e8f0;
+        transform: translate(-40px, -140px);
+    }
+    .verticalDivider:first-of-type::after {
+        display: none;
+    }
+}
