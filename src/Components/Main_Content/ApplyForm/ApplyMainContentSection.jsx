@@ -33,19 +33,11 @@ const ApplyMainContentSection = () => {
                         <div className='lg:flex lg:space-x-12 xl:space-x-16'>
                             {/* Left Side Content */}
                             <div className='mb-16 lg:mb-0 lg:mt-16 grow text-center  lg:text-left'>
-                                <h1
-                                    className='text-4xl md:text-[2.75rem] font-bold mb-12 aos-init aos-animate'
-                                    data-aos='fade-up'
-                                    data-aos-delay='100'
-                                >
+                                <h1 className='text-4xl md:text-[2.75rem] font-bold mb-12'>
                                     Build flexible cards for your business
                                 </h1>
                                 {/* List */}
-                                <div
-                                    className='mb-12 aos-init aos-animate'
-                                    data-aos='fade-up'
-                                    data-aos-delay='200'
-                                >
+                                <div className='mb-12'>
                                     <ul className='inline-flex flex-col text-slate-500 space-y-[0.625rem]'>
                                         <li className='flex items-center text-left'>
                                             <CheckMark />
@@ -71,11 +63,7 @@ const ApplyMainContentSection = () => {
                                     </ul>
                                 </div>
                                 {/* Trusted press Logos */}
-                                <div
-                                    className='w-full aos-init aos-animate'
-                                    data-aos='fade-up'
-                                    data-aos-delay='300'
-                                >
+                                <div className='w-full'>
                                     {/* Text */}
                                     <div className='mb-5 text-center lg:text-left text-xs/6 font-light uppercase tracking-wide text-slate-400'>
                                         Trusted bt the best
@@ -141,10 +129,7 @@ const ApplyMainContentSection = () => {
 
                                 {/* Form Area */}
                                 <div className='flex pt-12 lg:pt-0 lg:pl-12 xl:pl-20'>
-                                    <div
-                                        className='shadow-2xl p-6 bg-white max-w-[480px] lg:max-w-none w-full lg:w-[480px] xl:w-[512px] mx-auto lg:mx-0 aos-init aos-animate'
-                                        data-aos='fade-up'
-                                    >
+                                    <div className='shadow-2xl p-6 bg-white max-w-[480px] lg:max-w-none w-full lg:w-[480px] xl:w-[512px] mx-auto lg:mx-0 '>
                                         {/* Form */}
                                         <form>
                                             <div className='space-y-4'>
