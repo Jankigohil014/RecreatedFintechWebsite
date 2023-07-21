@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, {useState} from 'react';
 import SecondLevelList from './SecondLevelList';
 const ListItems = [
@@ -6,14 +5,6 @@ const ListItems = [
         id: 0,
         text: 'Welcome',
         isOpen: true,
-=======
-import React from 'react';
-import SecondLevelList from './SecondLevelList';
-const ListItems = [
-    {
-        id: 1,
-        text: 'Welcome',
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
         sublist: [
             {id: '1_1', text: 'Installation'},
             {id: '1_2', text: 'Quick start'},
@@ -21,14 +12,9 @@ const ListItems = [
         ],
     },
     {
-<<<<<<< HEAD
         id: 1,
         text: 'Sending Money',
         isOpen: true,
-=======
-        id: 2,
-        text: 'Sending Money',
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
         sublist: [
             {
                 id: '2_1',
@@ -51,70 +37,45 @@ const ListItems = [
         ],
     },
     {
-<<<<<<< HEAD
         id: 2,
         text: 'Account Management',
         isOpen: false,
-=======
-        id: 3,
-        text: 'Account Management',
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
         sublist: [
             {id: '3_1', text: 'Link'},
             {id: '3_2', text: 'Link'},
         ],
     },
     {
-<<<<<<< HEAD
         id: 3,
         text: 'Card',
         isOpen: false,
-=======
-        id: 4,
-        text: 'Card',
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
         sublist: [
             {id: '4_1', text: 'Link'},
             {id: '4_2', text: 'Link'},
         ],
     },
     {
-<<<<<<< HEAD
         id: 4,
         text: 'Credit Products',
         isOpen: false,
-=======
-        id: 5,
-        text: 'Credit Products',
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
         sublist: [
             {id: '5_1', text: 'Link'},
             {id: '5_2', text: 'Link'},
         ],
     },
     {
-<<<<<<< HEAD
         id: 5,
         text: 'Insurance',
         isOpen: false,
-=======
-        id: 6,
-        text: 'Insurance',
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
         sublist: [
             {id: '6_1', text: 'Link'},
             {id: '6_2', text: 'Link'},
         ],
     },
     {
-<<<<<<< HEAD
         id: 6,
         text: 'Wealth and Trading',
         isOpen: false,
-=======
-        id: 7,
-        text: 'Wealth and Trading',
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
         sublist: [
             {id: '7_1', text: 'Link'},
             {id: '7_2', text: 'Link'},
@@ -123,7 +84,6 @@ const ListItems = [
 ];
 
 const FirstLevelList = () => {
-<<<<<<< HEAD
     const [sidebarListItems, setSidebarListItems] = useState(ListItems);
     // const [isListOpened, setIsListOpened] = useState(false);
 
@@ -148,27 +108,14 @@ const FirstLevelList = () => {
                     <a
                         href='#0'
                         onClick={() => toggleList(index)}
-=======
-    return (
-        <React.Fragment>
-            {/* 1st Level List */}
-            {ListItems.map((listitem) => (
-                <li key={listitem.key}>
-                    <a
-                        href='#0'
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
                         className='flex items-center text-slate-800 text-sm font-bold'
                         aria-haspopup='true'
                         aria-expanded='true'
                     >
                         <svg
-<<<<<<< HEAD
                             className={`mr-2 fill-slate-400 ${
                                 listitem.isOpen && 'rotate-90'
                             }`}
-=======
-                            className='rotate-90 mr-2 fill-slate-400'
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
                             width='8'
                             height='8'
                             xmlns='http://www.w3.org/2000/svg'
@@ -178,7 +125,6 @@ const FirstLevelList = () => {
                         <span>{listitem.text}</span>
                     </a>
                     {/* Second Level List */}
-<<<<<<< HEAD
                     <ul
                         className={`mt-2 pl-6 text-sm/6 space-y-2 hidden ${
                             listitem.isOpen && '!block'
@@ -186,10 +132,6 @@ const FirstLevelList = () => {
                     >
                         <SecondLevelList
                             key={listitem.sublist.id}
-=======
-                    <ul className='mt-2 pl-6 text-sm/6 space-y-2'>
-                        <SecondLevelList
->>>>>>> dac873bb2dc70ebecdc9803d8127fa251e5f532c
                             secondListListItems={listitem.sublist}
                         />
                     </ul>

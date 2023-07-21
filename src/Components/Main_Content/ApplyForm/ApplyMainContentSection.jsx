@@ -33,11 +33,17 @@ const ApplyMainContentSection = () => {
                         <div className='lg:flex lg:space-x-12 xl:space-x-16'>
                             {/* Left Side Content */}
                             <div className='mb-16 lg:mb-0 lg:mt-16 grow text-center  lg:text-left'>
-                                <h1 className='text-4xl md:text-[2.75rem] font-bold mb-12'>
+                                <h1
+                                    className='text-4xl md:text-[2.75rem] font-bold mb-12 aos-init aos-animate'
+                                    data-aos='fade-up'
+                                >
                                     Build flexible cards for your business
                                 </h1>
                                 {/* List */}
-                                <div className='mb-12'>
+                                <div
+                                    className='mb-12 aos-init aos-animate'
+                                    data-aos='fade-up'
+                                >
                                     <ul className='inline-flex flex-col text-slate-500 space-y-[0.625rem]'>
                                         <li className='flex items-center text-left'>
                                             <CheckMark />
@@ -63,7 +69,10 @@ const ApplyMainContentSection = () => {
                                     </ul>
                                 </div>
                                 {/* Trusted press Logos */}
-                                <div className='w-full'>
+                                <div
+                                    className='w-full aos-init aos-init aos-animate'
+                                    data-aos='fade-up'
+                                >
                                     {/* Text */}
                                     <div className='mb-5 text-center lg:text-left text-xs/6 font-light uppercase tracking-wide text-slate-400'>
                                         Trusted bt the best
@@ -111,7 +120,7 @@ const ApplyMainContentSection = () => {
                             </div>
 
                             {/* Right Side Form with Background */}
-                            <div className='relative shrink-0 text-center lg:text-left'>
+                            <div className='relative shrink-0 text-center lg:text-left  '>
                                 {/* BG */}
                                 <div
                                     className=' bg-gradient-to-tr from-blue-600 to-blue-500 rounded-bl-[100px] mb-44 lg:-mt-[9999px] -mx-4 sm:-mx-6 lg:ml-0 lg:-mr-[9999px] -z-10 absolute top-0 bottom-0 right-0 left-0 pointer-events-none'
@@ -129,7 +138,10 @@ const ApplyMainContentSection = () => {
 
                                 {/* Form Area */}
                                 <div className='flex pt-12 lg:pt-0 lg:pl-12 xl:pl-20'>
-                                    <div className='shadow-2xl p-6 bg-white max-w-[480px] lg:max-w-none w-full lg:w-[480px] xl:w-[512px] mx-auto lg:mx-0 '>
+                                    <div
+                                        className='shadow-2xl p-6 bg-white max-w-[480px] lg:max-w-none w-full lg:w-[480px] xl:w-[512px] mx-auto lg:mx-0 aos-init aos-animate'
+                                        data-aos='fade-up'
+                                    >
                                         {/* Form */}
                                         <form>
                                             <div className='space-y-4'>

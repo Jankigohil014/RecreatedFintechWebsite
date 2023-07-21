@@ -6,13 +6,10 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/swiper-bundle.esm.js';
 import 'aos/dist/aos.css';
 import 'aos/dist/aos.js';
-import 'alpinejs';
+// import 'alpinejs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
     <React.StrictMode>
         <App />
     </React.StrictMode>,

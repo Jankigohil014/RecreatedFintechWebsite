@@ -13,7 +13,7 @@ const SupportPageHeader = () => {
                             <Link to='/' className='flex items-center'>
                                 <img src={ApplyPageLogo} alt='ApplyPageLogo' />
                                 <span className='ml-4 text-slate-400 font-medium'>
-                                    Support Systen
+                                    Support System
                                 </span>
                             </Link>
                         </div>
